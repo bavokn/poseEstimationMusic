@@ -1,8 +1,8 @@
-#A repo for playing music using pose estimation
+# A repo for playing music using pose estimation
 
-##installation guide
+## installation guide
 
-###requirements 
+### requirements 
 - docker (>v19.02)
 - docker-compose
 
