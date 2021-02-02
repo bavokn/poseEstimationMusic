@@ -6,5 +6,10 @@ services:
           context: app
           dockerfile: docker/Dockerfile
         volumes: 
-            - ./app:/home/user/Documents/poseEstimationMusic/app
+            - ./app:/home/user/Documents/PoseMusic
+            - /tmp/.X11-unix:/tmp/.X11-unix
         restart: always
+        environment:
+          DISPLAY: $DISPLAY
+        devices:
+          - /dev/video0:/dev/video0

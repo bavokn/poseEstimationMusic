@@ -1,1 +1,0 @@
-print("hello world from inside docker container !")
